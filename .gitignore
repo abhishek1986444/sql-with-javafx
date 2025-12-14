@@ -16,3 +16,9 @@ target/
 .settings/
 *.iml
 .DS_Store
+
+
+# private key 
+
+
+db.properties
