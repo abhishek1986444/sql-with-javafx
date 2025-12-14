@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.TableController"
+      spacing="10"
+      prefWidth="900"
+      prefHeight="600">
+
+    <TableView fx:id="tableView" VBox.vgrow="ALWAYS"/>
+
+    <HBox spacing="10">
+        <Label text="Rows:" />
+        <Slider fx:id="rowSlider"
+                blockIncrement="1"
+                showTickLabels="true"
+                showTickMarks="true"/>
+    </HBox>
+
+</VBox>
