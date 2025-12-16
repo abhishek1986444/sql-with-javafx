@@ -8,7 +8,7 @@ target/
 *.zip
 *.tar.gz
 *.rar
-
+*.txt
 # IDE/Tooling
 .idea/
 .classpath
@@ -26,3 +26,9 @@ db.properties
 !*.java
 
 !*.fxml
+
+
+# sample files 
+
+
+table_view.fxml
