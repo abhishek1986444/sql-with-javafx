@@ -1,0 +1,126 @@
+/* ===============================
+   Root container
+   =============================== */
+.root {
+    -fx-font-family: "Segoe UI", "Arial";
+    -fx-background-color: linear-gradient(
+        to bottom right,
+        #1f2933,
+        #111827
+    );
+}
+
+
+/* ===============================
+   Labels
+   =============================== */
+.label {
+    -fx-text-fill: #e5e7eb;
+    -fx-font-size: 12px;
+    -fx-font-weight: 500;
+}
+
+
+/* ===============================
+   Text fields & password fields
+   =============================== */
+.text-field,
+.password-field {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #111827;
+
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+
+    -fx-border-color: #9ca3af;
+    -fx-border-width: 1;
+
+    -fx-padding: 6 8;
+    -fx-font-size: 12px;
+}
+
+.text-field:focused,
+.password-field:focused {
+    -fx-border-color: #3b82f6;
+    -fx-border-width: 1.5;
+}
+
+
+/* ===============================
+   Buttons (default)
+   =============================== */
+.button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+
+    -fx-padding: 6 14;
+}
+
+.button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.button:pressed {
+    -fx-background-color: #1e40af;
+}
+
+
+/* ===============================
+   Quit button (danger)
+   =============================== */
+#Quite {
+    -fx-background-color: #dc2626;
+}
+
+#Quite:hover {
+    -fx-background-color: #b91c1c;
+}
+
+
+/* ===============================
+   Secondary button (sign up)
+   =============================== */
+#sign_up {
+    -fx-background-color: #16a34a;
+}
+
+#sign_up:hover {
+    -fx-background-color: #15803d;
+}
+
+
+/* ===============================
+   Image styling (logo)
+   =============================== */
+.image-view {
+    -fx-effect: dropshadow(
+        gaussian,
+        rgba(0,0,0,0.4),
+        8,
+        0.3,
+        0,
+        2
+    );
+}
+
+
+/* ===============================
+   "Forgot password" button
+   =============================== */
+.button[text="Forget password"] {
+    -fx-background-color: transparent;
+    -fx-text-fill: #93c5fd;
+    -fx-font-size: 11px;
+    -fx-padding: 0;
+}
+
+.button[text="Forget password"]:hover {
+    -fx-text-fill: #bfdbfe;
+    -fx-underline: true;
+}

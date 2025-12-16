@@ -28,5 +28,7 @@ db.properties
 !*.fxml
 
 
+# sample files 
 
 
+table_view.fxml
