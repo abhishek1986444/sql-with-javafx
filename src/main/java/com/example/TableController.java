@@ -1,4 +1,3 @@
-package com.example;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;

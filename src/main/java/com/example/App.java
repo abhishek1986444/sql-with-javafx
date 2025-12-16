@@ -38,11 +38,13 @@ public class App extends Application {
     public void start(Stage stage) throws Exception {
 
         FXMLLoader loader = new FXMLLoader(
-                getClass().getResource("/com/example/table_view.fxml")
+                getClass().getResource("/com/example/tableview2.fxml")
         );
 
-        Scene scene = new Scene(loader.load(), 900, 600);
+        Scene scene = new Scene(loader.load(), 500, 500);
         stage.setTitle("Database Table Viewer");
+            stage.setResizable(true); 
+
         stage.setScene(scene);
         stage.show();
     }
